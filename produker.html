@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produkter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex justify-content-center mt-5 mb-5">
+            <img src="./Assets/Brewbazaar.png" alt="logo" class="img-fluid">
+
+        </header>
+        <div class="d-flex justify-content-center bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse"></div>
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Index</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="nav-dropdown" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Företaget
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="nav-dropdown">
+                            <li><a class="dropdown-item" href="omoss.html">Vår Vision</a></li>
+                            <li><a class="dropdown-item" href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="nav-dropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Tjänster
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="nav-dropdown">
+                            <li><a class="dropdown-item" href="produker.html">Produkter</a></li>
+                            <li><a class="dropdown-item" href="kaffeparty.html">Kaffe Party</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card rounded mb-4 shadow-sm">
+                        <img class="card-img-top" src="./Assets/Machine1.png" alt="coffemachine">
+                        <div class="card-body">
+                            <h5 class="card-title">The Brew Smal</h5>
+                            <p class="card-text">Upplev kaffekomfort som aldrig tidigare, utan att kompromissa med kvaliteten. 
+                                Förhöj din dagliga kopp kaffe med vår lilla kaffemaskin och bevisa att bra saker 
+                                verkligen kan komma i små förpackningar.</p>
+                                <button class="btn btn-primary showInfoButton card-button">Visa Info</button>
+                                <div class="card-overlay infoOverlay">
+                                    <ol class="models" >
+                                        <li><strong><p class="info-text">Model:</strong>&nbsp;&nbsp;The Brew Smal</p></li>
+                                        <li><strong><p class="info-text">Pris:</strong>&nbsp;&nbsp;7000kr</p></li>
+                                    </ol>
+                                </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card rounded mb-4 shadow-sm">
+                        <img class="card-img-top" src="./Assets/machine5.png" alt="coffemachine">
+                        <div class="card-body">
+                            <h5 class="card-title">The Brew Standard</h5>
+                            <p class="card-text">
+                                Säg adjö till långa köer på kaféet och njut av doften av nybryggt kaffe hemma. 
+                                Förbättra din kaffeupplevelse med The Brew Bazaars Standard Coffee Machine idag!"
+                            </p>
+                            <button class="btn btn-primary showInfoButton card-button">Visa Info</button>
+                                
+                        </div>
+                        <div class="card-overlay infoOverlay">
+                            <ol class="models">
+                                <li><strong>Model:</strong>&nbsp;&nbsp;The Brew Standard</li>
+                                <li><strong>Pris:</strong>&nbsp;&nbsp;9000kr</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card rounded mb-4 shadow-sm">
+                        <img class="card-img-top" src="./Assets/machine6.png" alt="coffemachine">
+                        <div class="card-body">
+                            <h5 class="card-title">The Brew Medium</h5>
+                            <p class="card-text">
+                                Denna mångsidiga kaffebryggare är utformad för att leverera baristakvalitet direkt 
+                                till ditt kök, genom att kombinera en kompakt form med kraften att skapa 
+                                exceptionella bryggningar.
+                            </p>
+                            <button class="btn btn-primary showInfoButton card-button">Visa Info</button>
+                               
+                        </div>
+                        <div class="card-overlay infoOverlay">
+                            <ol class="models">
+                                <li><strong>Model:</strong>&nbsp;&nbsp;The Brew Medium</li>
+                                <li><strong>Pris:</strong>&nbsp;&nbsp;10000kr</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card rounded mb-4 shadow-sm">
+                        <img class="card-img-top" src="./Assets/Machine3.png" alt="coffemachine">
+                        <div class="card-body">
+                            <h5 class="card-title">The Brew Large</h5>
+                            <p class="card-text">Med sin generösa storlek är den mer än bara en kaffemaskin; 
+                                det är en kaffetillverkningsupplevelse. Oavsett om du driver en livlig kafé eller 
+                                helt enkelt längtar efter cafékvalitetskaffe hemma, levererar den här maskinen 
+                                excellence i varje kopp.
+                            </p>
+                            <button class="btn btn-primary showInfoButton card-button">Visa Info</button>
+                                
+                        </div>
+                        <div class="card-overlay infoOverlay">
+                            <ol class="models">
+                                <li><strong>Model:</strong>&nbsp;&nbsp;The Brew Large</li>
+                                <li><strong>Pris:</strong>&nbsp;&nbsp;15000kr</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card rounded mb-4 shadow-sm">
+                        <img class="card-img-top" src="./Assets/machine.png" alt="coffemachine">
+                        <div class="card-body">
+                            <h5 class="card-title">The Brew XLarge</h5>
+                            <p class="card-text">
+                                Med sina imponerande kapaciteter förvandlar den XLarge Coffee Machine din 
+                                kaffetillverkning till en konstform. Oavsett om du serverar en hektisk 
+                                publik eller kräver konsekvent kaffe av högsta kvalitet, klarar den här 
+                                maskinen uppgiften med bravur.
+                            </p>
+                            <button class="btn btn-primary showInfoButton card-button">Visa Info</button>
+                                
+                        </div>
+                        <div class="card-overlay infoOverlay">
+                            <ol class="models">
+                                <li><strong>Model:</strong>&nbsp;&nbsp;The Brew XLarge</li>
+                                <li><strong>Pris:</strong>&nbsp;&nbsp;18000kr</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card rounded mb-4 shadow-sm">
+                        <img class="card-img-top" src="./Assets/machine4.png" alt="coffemachine">
+                        <div class="card-body">
+                            <h5 class="card-title">The Brew Luxury</h5>
+                            <p class="card-text">Elegant och visuellt slående är denna kaffemaskin ett statement-piece 
+                                för ditt kök. Den förvandlar din kaffeceremoni till en daglig njutning och ger atmosfären 
+                                från ett exklusivt kafé till bekvämligheten i ditt eget hem.
+                            </p>
+                            <button class="btn btn-primary showInfoButton card-button">Visa Info</button>
+                                
+                        </div>
+                        <div class="card-overlay infoOverlay">
+                            <ol class="models">
+                                <li><strong>Model:</strong>&nbsp;&nbsp;The Brew Fancy</li>
+                                <li><strong>Pris:</strong>&nbsp;&nbsp;25000kr</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            // Add event listeners for all "Show Info" buttons
+            const showInfoButtons = document.querySelectorAll('.showInfoButton');
+            const infoOverlays = document.querySelectorAll('.infoOverlay');
+        
+            showInfoButtons.forEach((button, index) => {
+                button.addEventListener('click', () => {
+                    if (infoOverlays[index].style.display === 'none' || infoOverlays[index].style.display === '') {
+                        infoOverlays[index].style.display = 'block';
+                    } else {
+                        infoOverlays[index].style.display = 'none';
+                    }
+                });
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
