@@ -2,7 +2,6 @@ p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.1rem;
 }
-  
 .card-footer{
     background: transparent;
     border-top: 0px;
@@ -37,9 +36,9 @@ p{
 }
 .models {
     display: flex;
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-    height: 100%; /* Ensure it takes up the full height of the card */
+    align-items: center; 
+    justify-content: center; 
+    height: 100%; 
 }
 .dropdown-item:hover{
     color:#C38154;
@@ -59,17 +58,6 @@ p{
 .img-index{
     float:right;
 }
-
-
-/* .content{
-    background-color:rgb(255, 194, 111, 0.2);
-    width: 80%;
-} */
-
-/* .logo{
-    background-color:rgba(195, 129, 84, 0.3)
-} */
-
 @media (max-width: 767px) {
 
 .text-container{
