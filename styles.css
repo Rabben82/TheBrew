@@ -58,6 +58,17 @@ p{
 .img-index{
     float:right;
 }
+.breadcrumb-item a{
+color: #212121;
+text-decoration: none;
+}
+.breadcrumb-item.active{
+    color: #7d2424;
+     
+}
+.breadcrumb-item a:hover{
+    color: #7d2424;
+}
 @media (max-width: 767px) {
 
 .text-container{
