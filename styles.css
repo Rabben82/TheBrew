@@ -1,4 +1,8 @@
-
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}
+  
 .card-footer{
     background: transparent;
     border-top: 0px;
@@ -42,27 +46,27 @@
     color:#C38154;
 }
 .nav-link:hover{
-    color:#C38154;
+    color:rgb(195, 129, 84);
 }
 .text-container {
     width: 50%;
 }
+.dropdown-menu a{
+    color: rgb(255, 255, 255, 0.55);
+}
+.dropdown-item:hover{
+    background-color: rgb(255, 255, 255, 0.1);
+}
 /* .content{
     background-color:rgb(255, 194, 111, 0.2);
     width: 80%;
-}
+} */
 
-.logo{
+/* .logo{
     background-color:rgba(195, 129, 84, 0.3)
 } */
 @media (max-width: 767px) {
-    /* Adjust font size for mobile devices */
-    /* h3 {
-        font-size: 24px;
-    }
-    p {
-        font-size: 16px;
-    } */
+
 .text-container{
     width: 80%;
 }
